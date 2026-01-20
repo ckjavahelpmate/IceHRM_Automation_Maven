@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-16T15:28:39 IST" name="Default suite" finished-at="2026-01-16T15:28:44 IST" duration-ms="5151">
+    <groups>
+    </groups>
+    <test started-at="2026-01-16T15:28:39 IST" name="Default test" finished-at="2026-01-16T15:28:44 IST" duration-ms="5151">
+      <class name="tests.brwserlaunch.GoogleTest">
+        <test-method signature="googleLaunchTest()[pri:0, instance:tests.brwserlaunch.GoogleTest@1bd4fdd]" started-at="2026-01-16T15:28:39 IST" name="googleLaunchTest" finished-at="2026-01-16T15:28:44 IST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLaunchTest -->
+      </class> <!-- tests.brwserlaunch.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

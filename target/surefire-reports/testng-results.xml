@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-19T11:53:35 IST" name="Surefire suite" finished-at="2026-01-19T11:53:45 IST" duration-ms="10489">
+  <suite started-at="2026-01-22T12:13:34 IST" name="Surefire suite" finished-at="2026-01-22T12:13:48 IST" duration-ms="13692">
     <groups>
       <group name="Regression">
-        <method signature="ECommerceTest.amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@5c909414]" name="amazonTest" class="tests.brwserlaunch.ECommerceTest"/>
-        <method signature="FoodAppTest.SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@4a22f9e2]" name="SwiggyTest" class="tests.brwserlaunch.FoodAppTest"/>
-        <method signature="JavaIdeTest.eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c419631]" name="eclipseTest" class="tests.brwserlaunch.JavaIdeTest"/>
-        <method signature="SocilaMediaTest.facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@418e7838]" name="facebookTest" class="tests.brwserlaunch.SocilaMediaTest"/>
+        <method signature="ECommerceTest.amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@7f552bd3]" name="amazonTest" class="tests.brwserlaunch.ECommerceTest"/>
+        <method signature="FoodAppTest.SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@72a7c7e0]" name="SwiggyTest" class="tests.brwserlaunch.FoodAppTest"/>
+        <method signature="JavaIdeTest.eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@2e4b8173]" name="eclipseTest" class="tests.brwserlaunch.JavaIdeTest"/>
+        <method signature="SocilaMediaTest.facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@70e8f8e]" name="facebookTest" class="tests.brwserlaunch.SocilaMediaTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="ECommerceTest.amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@5c909414]" name="amazonTest" class="tests.brwserlaunch.ECommerceTest"/>
-        <method signature="FoodAppTest.SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@4a22f9e2]" name="SwiggyTest" class="tests.brwserlaunch.FoodAppTest"/>
-        <method signature="JavaIdeTest.eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c419631]" name="eclipseTest" class="tests.brwserlaunch.JavaIdeTest"/>
-        <method signature="SocilaMediaTest.facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@418e7838]" name="facebookTest" class="tests.brwserlaunch.SocilaMediaTest"/>
+        <method signature="ECommerceTest.amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@7f552bd3]" name="amazonTest" class="tests.brwserlaunch.ECommerceTest"/>
+        <method signature="FoodAppTest.SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@72a7c7e0]" name="SwiggyTest" class="tests.brwserlaunch.FoodAppTest"/>
+        <method signature="JavaIdeTest.eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@2e4b8173]" name="eclipseTest" class="tests.brwserlaunch.JavaIdeTest"/>
+        <method signature="SocilaMediaTest.facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@70e8f8e]" name="facebookTest" class="tests.brwserlaunch.SocilaMediaTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-01-19T11:53:35 IST" name="Surefire test" finished-at="2026-01-19T11:53:45 IST" duration-ms="10489">
+    <test started-at="2026-01-22T12:13:34 IST" name="Surefire test" finished-at="2026-01-22T12:13:48 IST" duration-ms="13692">
       <class name="tests.brwserlaunch.SocilaMediaTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@418e7838]" started-at="2026-01-19T11:53:43 IST" name="beforeMethod" finished-at="2026-01-19T11:53:45 IST" duration-ms="2060" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@70e8f8e]" started-at="2026-01-22T12:13:34 IST" name="beforeMethod" finished-at="2026-01-22T12:13:39 IST" duration-ms="4579" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,146 +27,20 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: JavaScript code failed
-from unknown command: 'Runtime.evaluate' wasn't found
-  (Session info: MicrosoftEdge=144.0.3719.82)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10faddef7c9d393bb343d2ba93f230c3, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.82, fedcm:accounts: true, goog:processID: 21320, ms:edgeOptions: {debuggerAddress: localhost:57701}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\QJSPID~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 144.0.3719.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10faddef7c9d393bb343d2ba93f230c3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
-from unknown command: 'Runtime.evaluate' wasn't found
-  (Session info: MicrosoftEdge=144.0.3719.82)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10faddef7c9d393bb343d2ba93f230c3, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.82, fedcm:accounts: true, goog:processID: 21320, ms:edgeOptions: {debuggerAddress: localhost:57701}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\QJSPID~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 144.0.3719.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10faddef7c9d393bb343d2ba93f230c3
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
-at utility.BaseClass.beforeMethod(BaseClass.java:41)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@418e7838]" started-at="2026-01-19T11:53:45 IST" name="facebookTest" finished-at="2026-01-19T11:53:45 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: JavaScript code failed
-from unknown command: 'Runtime.evaluate' wasn't found
-  (Session info: MicrosoftEdge=144.0.3719.82)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10faddef7c9d393bb343d2ba93f230c3, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.82, fedcm:accounts: true, goog:processID: 21320, ms:edgeOptions: {debuggerAddress: localhost:57701}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\QJSPID~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 144.0.3719.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10faddef7c9d393bb343d2ba93f230c3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
-from unknown command: 'Runtime.evaluate' wasn't found
-  (Session info: MicrosoftEdge=144.0.3719.82)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [10faddef7c9d393bb343d2ba93f230c3, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.82, fedcm:accounts: true, goog:processID: 21320, ms:edgeOptions: {debuggerAddress: localhost:57701}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\QJSPID~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 144.0.3719.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10faddef7c9d393bb343d2ba93f230c3
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1047)
-at utility.BaseClass.beforeMethod(BaseClass.java:41)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@70e8f8e]" started-at="2026-01-22T12:13:39 IST" name="facebookTest" finished-at="2026-01-22T12:13:44 IST" duration-ms="5018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@418e7838]" started-at="2026-01-19T11:53:45 IST" name="afterMethod" finished-at="2026-01-19T11:53:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@70e8f8e]" started-at="2026-01-22T12:13:44 IST" name="afterMethod" finished-at="2026-01-22T12:13:46 IST" duration-ms="2462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.brwserlaunch.SocilaMediaTest -->
       <class name="tests.brwserlaunch.ECommerceTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.ECommerceTest@5c909414]" started-at="2026-01-19T11:53:35 IST" name="beforeMethod" finished-at="2026-01-19T11:53:39 IST" duration-ms="4063" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.ECommerceTest@7f552bd3]" started-at="2026-01-22T12:13:34 IST" name="beforeMethod" finished-at="2026-01-22T12:13:39 IST" duration-ms="4579" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,17 +51,17 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@5c909414]" started-at="2026-01-19T11:53:39 IST" name="amazonTest" finished-at="2026-01-19T11:53:42 IST" duration-ms="3316" status="PASS">
+        <test-method signature="amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@7f552bd3]" started-at="2026-01-22T12:13:39 IST" name="amazonTest" finished-at="2026-01-22T12:13:47 IST" duration-ms="8078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.ECommerceTest@5c909414]" started-at="2026-01-19T11:53:42 IST" name="afterMethod" finished-at="2026-01-19T11:53:43 IST" duration-ms="886" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.ECommerceTest@7f552bd3]" started-at="2026-01-22T12:13:47 IST" name="afterMethod" finished-at="2026-01-22T12:13:48 IST" duration-ms="795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.brwserlaunch.ECommerceTest -->
       <class name="tests.brwserlaunch.JavaIdeTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c419631]" started-at="2026-01-19T11:53:35 IST" name="beforeMethod" finished-at="2026-01-19T11:53:39 IST" duration-ms="3954" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.JavaIdeTest@2e4b8173]" started-at="2026-01-22T12:13:34 IST" name="beforeMethod" finished-at="2026-01-22T12:13:38 IST" duration-ms="3752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,17 +72,17 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c419631]" started-at="2026-01-19T11:53:39 IST" name="eclipseTest" finished-at="2026-01-19T11:53:41 IST" duration-ms="2832" status="PASS">
+        <test-method signature="eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@2e4b8173]" started-at="2026-01-22T12:13:38 IST" name="eclipseTest" finished-at="2026-01-22T12:13:45 IST" duration-ms="6679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eclipseTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c419631]" started-at="2026-01-19T11:53:41 IST" name="afterMethod" finished-at="2026-01-19T11:53:43 IST" duration-ms="1455" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@2e4b8173]" started-at="2026-01-22T12:13:45 IST" name="afterMethod" finished-at="2026-01-22T12:13:47 IST" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.brwserlaunch.JavaIdeTest -->
       <class name="tests.brwserlaunch.FoodAppTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.FoodAppTest@4a22f9e2]" started-at="2026-01-19T11:53:35 IST" name="beforeMethod" finished-at="2026-01-19T11:53:39 IST" duration-ms="4019" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.FoodAppTest@72a7c7e0]" started-at="2026-01-22T12:13:34 IST" name="beforeMethod" finished-at="2026-01-22T12:13:38 IST" duration-ms="3848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,11 +93,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@4a22f9e2]" started-at="2026-01-19T11:53:39 IST" name="SwiggyTest" finished-at="2026-01-19T11:53:42 IST" duration-ms="3536" status="PASS">
+        <test-method signature="SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@72a7c7e0]" started-at="2026-01-22T12:13:38 IST" name="SwiggyTest" finished-at="2026-01-22T12:13:42 IST" duration-ms="4095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwiggyTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.FoodAppTest@4a22f9e2]" started-at="2026-01-19T11:53:42 IST" name="afterMethod" finished-at="2026-01-19T11:53:43 IST" duration-ms="780" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.FoodAppTest@72a7c7e0]" started-at="2026-01-22T12:13:43 IST" name="afterMethod" finished-at="2026-01-22T12:13:47 IST" duration-ms="3781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

@@ -1,17 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-16T15:28:39 IST" name="Default suite" finished-at="2026-01-16T15:28:44 IST" duration-ms="5151">
+  <suite started-at="2026-01-21T14:18:43 IST" name="Default suite" finished-at="2026-01-21T14:19:01 IST" duration-ms="18268">
     <groups>
+      <group name="Regression">
+        <method signature="ECommerceTest.amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@198b6731]" name="amazonTest" class="tests.brwserlaunch.ECommerceTest"/>
+        <method signature="FoodAppTest.SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@327514f]" name="SwiggyTest" class="tests.brwserlaunch.FoodAppTest"/>
+        <method signature="JavaIdeTest.eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c9754d8]" name="eclipseTest" class="tests.brwserlaunch.JavaIdeTest"/>
+        <method signature="SocilaMediaTest.facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@3857f613]" name="facebookTest" class="tests.brwserlaunch.SocilaMediaTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="ECommerceTest.amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@198b6731]" name="amazonTest" class="tests.brwserlaunch.ECommerceTest"/>
+        <method signature="FoodAppTest.SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@327514f]" name="SwiggyTest" class="tests.brwserlaunch.FoodAppTest"/>
+        <method signature="JavaIdeTest.eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c9754d8]" name="eclipseTest" class="tests.brwserlaunch.JavaIdeTest"/>
+        <method signature="SocilaMediaTest.facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@3857f613]" name="facebookTest" class="tests.brwserlaunch.SocilaMediaTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-01-16T15:28:39 IST" name="Default test" finished-at="2026-01-16T15:28:44 IST" duration-ms="5151">
-      <class name="tests.brwserlaunch.GoogleTest">
-        <test-method signature="googleLaunchTest()[pri:0, instance:tests.brwserlaunch.GoogleTest@1bd4fdd]" started-at="2026-01-16T15:28:39 IST" name="googleLaunchTest" finished-at="2026-01-16T15:28:44 IST" duration-ms="5076" status="PASS">
+    <test started-at="2026-01-21T14:18:43 IST" name="Default test" finished-at="2026-01-21T14:19:01 IST" duration-ms="18268">
+      <class name="tests.brwserlaunch.SocilaMediaTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@3857f613]" started-at="2026-01-21T14:18:47 IST" name="beforeMethod" finished-at="2026-01-21T14:18:48 IST" duration-ms="794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleLaunchTest -->
-      </class> <!-- tests.brwserlaunch.GoogleTest -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="facebookTest()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@3857f613]" started-at="2026-01-21T14:18:48 IST" name="facebookTest" finished-at="2026-01-21T14:18:50 IST" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.SocilaMediaTest@3857f613]" started-at="2026-01-21T14:18:50 IST" name="afterMethod" finished-at="2026-01-21T14:18:50 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.brwserlaunch.SocilaMediaTest -->
+      <class name="tests.brwserlaunch.ECommerceTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.ECommerceTest@198b6731]" started-at="2026-01-21T14:18:50 IST" name="beforeMethod" finished-at="2026-01-21T14:18:51 IST" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="amazonTest()[pri:0, instance:tests.brwserlaunch.ECommerceTest@198b6731]" started-at="2026-01-21T14:18:51 IST" name="amazonTest" finished-at="2026-01-21T14:18:54 IST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.ECommerceTest@198b6731]" started-at="2026-01-21T14:18:54 IST" name="afterMethod" finished-at="2026-01-21T14:18:54 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.brwserlaunch.ECommerceTest -->
+      <class name="tests.brwserlaunch.JavaIdeTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c9754d8]" started-at="2026-01-21T14:18:54 IST" name="beforeMethod" finished-at="2026-01-21T14:18:55 IST" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="eclipseTest()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c9754d8]" started-at="2026-01-21T14:18:55 IST" name="eclipseTest" finished-at="2026-01-21T14:19:01 IST" duration-ms="6031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eclipseTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.JavaIdeTest@3c9754d8]" started-at="2026-01-21T14:19:01 IST" name="afterMethod" finished-at="2026-01-21T14:19:01 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.brwserlaunch.JavaIdeTest -->
+      <class name="tests.brwserlaunch.FoodAppTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.brwserlaunch.FoodAppTest@327514f]" started-at="2026-01-21T14:18:43 IST" name="beforeMethod" finished-at="2026-01-21T14:18:44 IST" duration-ms="1130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SwiggyTest()[pri:0, instance:tests.brwserlaunch.FoodAppTest@327514f]" started-at="2026-01-21T14:18:44 IST" name="SwiggyTest" finished-at="2026-01-21T14:18:47 IST" duration-ms="2638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwiggyTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.brwserlaunch.FoodAppTest@327514f]" started-at="2026-01-21T14:18:47 IST" name="afterMethod" finished-at="2026-01-21T14:18:47 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.brwserlaunch.FoodAppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

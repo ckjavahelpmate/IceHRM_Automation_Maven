@@ -33,40 +33,66 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.4.1</version>
-			<scope>compile</scope>
 		</dependency>
 
+		<!-- Source:
+		https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+		</dependency>
+
+
 	</dependencies>
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<browser>chrome</browser>
+		<groups>Regression</groups>
+		<threadCount>6</threadCount>
+	</properties>
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.2.5</version> 
+				<version>3.2.5</version>
 				<configuration>
 					<!-- Test file pattern matching-->
 					<includes>
 						<include>**/*Test.java</include>
 					</includes>
-					
-					<!-- Group executions, from cmd : mvn test -Dgroups=groupname-->  
+
+					<!-- Group executions, from cmd : mvn test
+					-Dgroups=groupname-->
 					<groups>${groups}</groups>
-					
-					<!-- Parallel Execution, from cmd : mvn test -DthreadCount=count-->
+
+					<!-- Parallel Execution, from cmd : mvn test
+					-DthreadCount=count-->
 					<parallel>methods</parallel>
 					<threadCount>${threadCount}</threadCount>
-					
-					<!-- Browser parameter, from cmd : mvn test -Dbrowser=browsername-->
+
+					<!--Browser parameter, from cmd : mvn test
+					-Dbrowser=browsername-->
 					<systemPropertyVariables>
 						<browser>${browser}</browser>
 					</systemPropertyVariables>
-					
+
 				</configuration>
-				
+
 			</plugin>
-			
+
 		</plugins>
 	</build>
-	
+
 </project>

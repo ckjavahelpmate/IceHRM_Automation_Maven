@@ -4,7 +4,7 @@
 
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <parameter name="browser" value="dingabrowser"/>
+  <parameter name="browser" value="chrome"/>
     <classes>
       <class name="icehrm.tests.demo.JavaIdeTest"/>
     </classes>

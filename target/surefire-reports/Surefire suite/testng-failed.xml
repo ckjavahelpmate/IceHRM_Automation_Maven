@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="3" parallel="methods" name="Surefire test(failed)" verbose="0">
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
+<suite parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" parallel="methods" name="Surefire test(failed)" verbose="0">
     <classes>
       <class name="tests.brwserlaunch.SocilaMediaTest">
         <methods>
@@ -15,6 +10,27 @@
           <include name="facebookTest"/>
         </methods>
       </class> <!-- tests.brwserlaunch.SocilaMediaTest -->
+      <class name="tests.brwserlaunch.FoodAppTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="SwiggyTest"/>
+        </methods>
+      </class> <!-- tests.brwserlaunch.FoodAppTest -->
+      <class name="tests.brwserlaunch.JavaIdeTest">
+        <methods>
+          <include name="eclipseTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.brwserlaunch.JavaIdeTest -->
+      <class name="tests.brwserlaunch.ECommerceTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="amazonTest"/>
+        </methods>
+      </class> <!-- tests.brwserlaunch.ECommerceTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

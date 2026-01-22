@@ -13,7 +13,6 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
-
 	static {
 		LogManager.getLogManager().reset();
 	}
@@ -21,30 +20,35 @@ public class BaseClass {
 	protected WebDriver driver;
 
 	@Parameters("browser")
-	@BeforeMethod( alwaysRun = true)
-	public void beforeMethod(@Optional("chrome") String browser) 
-	{
-		WebDriver driver ;
-		
-		switch( browser.toLowerCase())
-		{
-		case "chrome" : driver = new ChromeDriver(); break ;
-		case "msedge" : driver = new EdgeDriver(); break ;
-		case "firefox" : driver = new FirefoxDriver(); break ;
-		default : throw new InvalidArgumentException(browser + " is invalid");
-		
+	@BeforeMethod(alwaysRun = true)
+	public void beforeMethod(@Optional("chrome") String browser) {
+		System.out.println(browser);
+		WebDriver driver;
+
+		switch (browser.toLowerCase()) {
+		case "chrome":
+			driver = new ChromeDriver();
+			break;
+		case "msedge":
+			driver = new EdgeDriver();
+			break;
+		case "firefox":
+			driver = new FirefoxDriver();
+			break;
+		default:
+			throw new InvalidArgumentException(browser + " is invalid");
+
 		}
-		
+
 		driver.manage().window().maximize();
 		DriverManager.setDriver(driver);
 		this.driver = DriverManager.getDriver();
 	}
 
-	@AfterMethod( alwaysRun = true)
-	public void afterMethod() 
-	{
+	@AfterMethod(alwaysRun = true)
+	public void afterMethod() {
 		DriverManager.closeDriver();
-		
+
 	}
 
 }
